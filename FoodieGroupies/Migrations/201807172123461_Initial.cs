@@ -3,7 +3,7 @@ namespace FoodieGroupies.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialMigration : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {
@@ -25,31 +25,6 @@ namespace FoodieGroupies.Migrations
                         Type = c.String(maxLength: 50),
                     })
                 .PrimaryKey(t => t.ID);
-            
-            CreateTable(
-                "dbo.RestaurantReviews",
-                c => new
-                    {
-                        ReviewID = c.Int(nullable: false),
-                        RestaurantID = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => new { t.ReviewID, t.RestaurantID })
-                .ForeignKey("dbo.Restaurants", t => t.RestaurantID, cascadeDelete: true)
-                .ForeignKey("dbo.Reviews", t => t.ReviewID, cascadeDelete: true)
-                .Index(t => t.ReviewID)
-                .Index(t => t.RestaurantID);
-            
-            CreateTable(
-                "dbo.Reviews",
-                c => new
-                    {
-                        ID = c.Int(nullable: false, identity: true),
-                        RestaurantID = c.Int(nullable: false),
-                        Rating = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.ID)
-                .ForeignKey("dbo.Restaurants", t => t.RestaurantID, cascadeDelete: true)
-                .Index(t => t.RestaurantID);
             
             CreateTable(
                 "dbo.AspNetRoles",
@@ -127,25 +102,17 @@ namespace FoodieGroupies.Migrations
             DropForeignKey("dbo.AspNetUserLogins", "UserId", "dbo.AspNetUsers");
             DropForeignKey("dbo.AspNetUserClaims", "UserId", "dbo.AspNetUsers");
             DropForeignKey("dbo.AspNetUserRoles", "RoleId", "dbo.AspNetRoles");
-            DropForeignKey("dbo.RestaurantReviews", "ReviewID", "dbo.Reviews");
-            DropForeignKey("dbo.Reviews", "RestaurantID", "dbo.Restaurants");
-            DropForeignKey("dbo.RestaurantReviews", "RestaurantID", "dbo.Restaurants");
             DropIndex("dbo.AspNetUserLogins", new[] { "UserId" });
             DropIndex("dbo.AspNetUserClaims", new[] { "UserId" });
             DropIndex("dbo.AspNetUsers", "UserNameIndex");
             DropIndex("dbo.AspNetUserRoles", new[] { "RoleId" });
             DropIndex("dbo.AspNetUserRoles", new[] { "UserId" });
             DropIndex("dbo.AspNetRoles", "RoleNameIndex");
-            DropIndex("dbo.Reviews", new[] { "RestaurantID" });
-            DropIndex("dbo.RestaurantReviews", new[] { "RestaurantID" });
-            DropIndex("dbo.RestaurantReviews", new[] { "ReviewID" });
             DropTable("dbo.AspNetUserLogins");
             DropTable("dbo.AspNetUserClaims");
             DropTable("dbo.AspNetUsers");
             DropTable("dbo.AspNetUserRoles");
             DropTable("dbo.AspNetRoles");
-            DropTable("dbo.Reviews");
-            DropTable("dbo.RestaurantReviews");
             DropTable("dbo.Restaurants");
             DropTable("dbo.Cuisines");
         }

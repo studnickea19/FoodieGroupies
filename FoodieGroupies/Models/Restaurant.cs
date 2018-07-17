@@ -16,6 +16,7 @@ namespace FoodieGroupies.Models
         public string Name { get; set; }
 
         [StringLength(50)]
+        [Display(Name="Cuisine Type")]
         public string Type { get; set; }
     }
 }

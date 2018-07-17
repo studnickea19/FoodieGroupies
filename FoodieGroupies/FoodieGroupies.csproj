@@ -199,15 +199,13 @@
     <Compile Include="Controllers\CuisinesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\RestaurantReviewsController.cs" />
     <Compile Include="Controllers\RestaurantsController.cs" />
-    <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807171929155_InitialMigration.cs" />
-    <Compile Include="Migrations\201807171929155_InitialMigration.Designer.cs">
-      <DependentUpon>201807171929155_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201807172123461_Initial.cs" />
+    <Compile Include="Migrations\201807172123461_Initial.Designer.cs">
+      <DependentUpon>201807172123461_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -215,8 +213,6 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Restaurant.cs" />
-    <Compile Include="Models\RestaurantReview.cs" />
-    <Compile Include="Models\Review.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -290,16 +286,7 @@
     <Content Include="Views\Restaurants\Details.cshtml" />
     <Content Include="Views\Restaurants\Edit.cshtml" />
     <Content Include="Views\Restaurants\Index.cshtml" />
-    <Content Include="Views\RestaurantReviews\Create.cshtml" />
-    <Content Include="Views\RestaurantReviews\Delete.cshtml" />
-    <Content Include="Views\RestaurantReviews\Details.cshtml" />
-    <Content Include="Views\RestaurantReviews\Edit.cshtml" />
-    <Content Include="Views\RestaurantReviews\Index.cshtml" />
-    <Content Include="Views\Reviews\Create.cshtml" />
-    <Content Include="Views\Reviews\Delete.cshtml" />
-    <Content Include="Views\Reviews\Details.cshtml" />
-    <Content Include="Views\Reviews\Edit.cshtml" />
-    <Content Include="Views\Reviews\Index.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -313,8 +300,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807171929155_InitialMigration.resx">
-      <DependentUpon>201807171929155_InitialMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807172123461_Initial.resx">
+      <DependentUpon>201807172123461_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -80,5 +80,5 @@ C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\bin\Microsoft.Owin.Securi
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.dll
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.pdb
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csprojResolveAssemblyReference.cache
-C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.InitialMigration.resources
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.Initial.resources
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csproj.GenerateResource.Cache
