@@ -29,5 +29,11 @@ namespace FoodieGroupies.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Restaurant> Restaurant { get; set; }
+        public DbSet<Review> Review { get; set; }
+        public DbSet<RestaurantReview> RestaurantReview { get; set; }
+        public DbSet<Cuisine> Cuisine { get; set; }
+
     }
 }

@@ -77,6 +77,6 @@ C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\bin\Microsoft.Owin.Securi
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csprojResolveAssemblyReference.cache
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.dll
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.pdb
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csprojResolveAssemblyReference.cache
