@@ -7,17 +7,15 @@ using System.Web;
 
 namespace FoodieGroupies.Models
 {
-    public class Restaurant
+    public class Reviews
     {
         [Key]
         public int ID { get; set; }
 
-        [StringLength(50)]
-        [Display(Name = "Restaurant Name")]
-        public string Name { get; set; }
+        public int Rating { get; set; }
 
-        [ForeignKey("Cuisine")]
-        public int CuisineID { get; set; }
-        public virtual Cuisine Cuisine { get; set; }
+        [ForeignKey("Restaurant")]
+        public int RestaurantID { get; set; }
+        public virtual Restaurant Restaurant { get; set; }
     }
 }

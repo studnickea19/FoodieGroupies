@@ -82,3 +82,6 @@ C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csprojResolveAssemblyReference.cache
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.Initial.resources
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.csproj.GenerateResource.Cache
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.AddedJunctionTableRandC.resources
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.AddingReviewsBackIn.resources
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.RemovedJunctionTable.resources

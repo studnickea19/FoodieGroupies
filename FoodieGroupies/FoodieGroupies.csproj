@@ -207,12 +207,25 @@
     <Compile Include="Migrations\201807172123461_Initial.Designer.cs">
       <DependentUpon>201807172123461_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807181337450_AddedJunctionTableRandC.cs" />
+    <Compile Include="Migrations\201807181337450_AddedJunctionTableRandC.Designer.cs">
+      <DependentUpon>201807181337450_AddedJunctionTableRandC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807181340511_AddingReviewsBackIn.cs" />
+    <Compile Include="Migrations\201807181340511_AddingReviewsBackIn.Designer.cs">
+      <DependentUpon>201807181340511_AddingReviewsBackIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807181344344_RemovedJunctionTable.cs" />
+    <Compile Include="Migrations\201807181344344_RemovedJunctionTable.Designer.cs">
+      <DependentUpon>201807181344344_RemovedJunctionTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Cuisine.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Restaurant.cs" />
+    <Compile Include="Models\Reviews.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -302,6 +315,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807172123461_Initial.resx">
       <DependentUpon>201807172123461_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807181337450_AddedJunctionTableRandC.resx">
+      <DependentUpon>201807181337450_AddedJunctionTableRandC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807181340511_AddingReviewsBackIn.resx">
+      <DependentUpon>201807181340511_AddingReviewsBackIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807181344344_RemovedJunctionTable.resx">
+      <DependentUpon>201807181344344_RemovedJunctionTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
