@@ -200,6 +200,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RestaurantsController.cs" />
+    <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -218,6 +219,10 @@
     <Compile Include="Migrations\201807181344344_RemovedJunctionTable.cs" />
     <Compile Include="Migrations\201807181344344_RemovedJunctionTable.Designer.cs">
       <DependentUpon>201807181344344_RemovedJunctionTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807181353057_UpdatingDB.cs" />
+    <Compile Include="Migrations\201807181353057_UpdatingDB.Designer.cs">
+      <DependentUpon>201807181353057_UpdatingDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -300,6 +305,11 @@
     <Content Include="Views\Restaurants\Edit.cshtml" />
     <Content Include="Views\Restaurants\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Reviews\Create.cshtml" />
+    <Content Include="Views\Reviews\Delete.cshtml" />
+    <Content Include="Views\Reviews\Details.cshtml" />
+    <Content Include="Views\Reviews\Edit.cshtml" />
+    <Content Include="Views\Reviews\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807181344344_RemovedJunctionTable.resx">
       <DependentUpon>201807181344344_RemovedJunctionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807181353057_UpdatingDB.resx">
+      <DependentUpon>201807181353057_UpdatingDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

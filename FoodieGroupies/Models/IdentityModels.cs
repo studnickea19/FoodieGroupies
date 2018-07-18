@@ -33,5 +33,6 @@ namespace FoodieGroupies.Models
         public DbSet<Restaurant> Restaurant { get; set; }
         public DbSet<Cuisine> Cuisine { get; set; }
 
+        public System.Data.Entity.DbSet<FoodieGroupies.Models.Reviews> Reviews { get; set; }
     }
 }

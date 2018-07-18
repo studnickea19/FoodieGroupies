@@ -1,4 +1,4 @@
-﻿@model FoodieGroupies.Models.Restaurant
+﻿@model FoodieGroupies.Models.Reviews
 
 @{
     ViewBag.Title = "Delete";
@@ -9,23 +9,23 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Restaurant</h4>
+    <h4>Reviews</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.Restaurant.Name)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Name)
+            @Html.DisplayFor(model => model.Restaurant.Name)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Cuisine)
+            @Html.DisplayNameFor(model => model.Rating)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Cuisine)
+            @Html.DisplayFor(model => model.Rating)
         </dd>
 
     </dl>
