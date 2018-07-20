@@ -86,3 +86,4 @@ C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.AddingReviewsBackIn.resources
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.RemovedJunctionTable.resources
 C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.UpdatingDB.resources
+C:\Users\Ellie\Documents\FoodieGroupies\FoodieGroupies\obj\Debug\FoodieGroupies.Migrations.AddingRangeToReviewRating.resources

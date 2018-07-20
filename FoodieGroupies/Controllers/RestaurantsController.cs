@@ -17,6 +17,7 @@ namespace FoodieGroupies.Controllers
         // GET: Restaurants
         public ActionResult Index()
         {
+            var restaurants = db.Restaurant.ToList();
             return View(db.Restaurant.ToList());
         }
 

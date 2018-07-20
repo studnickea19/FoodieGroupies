@@ -1,17 +1,17 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="starApp" ng-controller="MainController">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title ng-bind="models.helloAngular">@ViewBag.Title - FoodieGroupies</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
+<body ng-app="starApp">
     @Html.Partial("_NavBar")
-    <div class="container body-content">
+    <div class="container body-content" ng-controller="MainController">
         @RenderBody()
         <hr />
         <footer>
@@ -21,6 +21,11 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/app.js")
+    @Scripts.Render("~/bundles/Controllers/MainController.js")
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     @RenderSection("scripts", required: false)
+    
+    
 </body>
 </html>

@@ -12,6 +12,7 @@ namespace FoodieGroupies.Models
         [Key]
         public int ID { get; set; }
 
+        [Range(1,5)]
         public int Rating { get; set; }
 
         [ForeignKey("Restaurant")]
